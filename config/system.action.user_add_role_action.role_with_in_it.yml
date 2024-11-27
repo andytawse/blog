@@ -1,0 +1,14 @@
+uuid: 8869d0fc-9cdf-449e-8894-2966964cce05
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.role_with_in_it
+  module:
+    - user
+id: user_add_role_action.role_with_in_it
+label: 'Add the Role with &amp; in it role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: role_with_in_it

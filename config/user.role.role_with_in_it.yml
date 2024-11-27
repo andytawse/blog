@@ -1,0 +1,9 @@
+uuid: 51bc9c42-aff0-43e4-b573-1cd90a8415c9
+langcode: en
+status: true
+dependencies: {  }
+id: role_with_in_it
+label: 'Role with & in it'
+weight: 4
+is_admin: null
+permissions: {  }

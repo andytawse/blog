@@ -1,0 +1,14 @@
+uuid: 6ad2c64d-81ef-4209-9d06-51fe146586f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.role_with_in_it
+  module:
+    - user
+id: user_remove_role_action.role_with_in_it
+label: 'Remove the Role with &amp; in it role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: role_with_in_it
