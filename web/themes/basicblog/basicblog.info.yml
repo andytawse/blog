@@ -1,0 +1,24 @@
+name: Basic Blog
+type: theme
+description: 'Theme for my blog'
+package: Core
+version: VERSION
+core_version_requirement: ^11
+base theme: false
+starterkit: false
+regions:
+  header: 'Header'
+  content: 'Content'
+libraries:
+  - basicblog/global-styling
+libraries-override:
+  system/base: false
+  views/views.module: false
+  core/internal.underscore: false
+  core/once: false
+  core/internal.backbone: false
+  core/drupalSettings: false
+  core/drupal: false
+  contextual/drupal.contextual-links: false
+  core/drupal.progress: false
+  core/drupal.active-link: false

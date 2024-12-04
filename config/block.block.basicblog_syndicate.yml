@@ -1,0 +1,23 @@
+uuid: 75a73859-1ad6-4ff2-b137-f7b73d39e7e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - basicblog
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: basicblog_syndicate
+theme: basicblog
+region: header
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+}
+article {
+    font-family: serif;
+    background-color: bisque;
+    padding: 1rem;
+    padding-top: 0.1rem;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    word-wrap: normal;
+  }
