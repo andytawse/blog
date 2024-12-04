@@ -8,8 +8,8 @@ _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: basicblog_primary_local_tasks
 theme: basicblog
-region: header
-weight: -4
+region: admin
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:
