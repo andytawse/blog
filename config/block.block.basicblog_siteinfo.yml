@@ -1,0 +1,25 @@
+uuid: 2d2eb3bf-bdc9-46c6-87aa-d20d216aca73
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c18a9c4a-1e02-41fe-8f51-c289adb0a5ae'
+  module:
+    - block_content
+  theme:
+    - basicblog
+id: basicblog_siteinfo
+theme: basicblog
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:c18a9c4a-1e02-41fe-8f51-c289adb0a5ae'
+settings:
+  id: 'block_content:c18a9c4a-1e02-41fe-8f51-c289adb0a5ae'
+  label: 'Site info'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
