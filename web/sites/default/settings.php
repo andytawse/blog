@@ -894,7 +894,20 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
  * Keep this code block at the end of this file to take full effect.
  */
 #
-if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+
+// Skip loading settings.local.php during Tome static generation
+$isStaticGeneration = FALSE;
+if (isset($GLOBALS['request']) && 
+    $GLOBALS['request']->attributes->get('tome_static_request') === 'tome_static_request') {
+  $isStaticGeneration = TRUE;
+}
+elseif (PHP_SAPI === 'cli' && 
+    isset($_SERVER['argv'][1]) && 
+    strpos($_SERVER['argv'][1], 'tome:static') === 0) {
+      $isStaticGeneration = TRUE;
+}
+
+if (!$isStaticGeneration && file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 

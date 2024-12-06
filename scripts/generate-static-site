@@ -1,0 +1,3 @@
+drush cr
+drush tome:static
+ls -l static

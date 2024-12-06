@@ -10,3 +10,16 @@
 
 ## Static generation
 
+Run this from the root directory:
+
+```
+./scripts/generate-static-site
+```
+
+`settings.local.php` turns on Twig debugging, which we don't want in the static site. I've added a check to prevent `settings.local.php` from being loaded during static generation, but if [Tome only exports pages that have changed i.e. what's cached](https://www.drupal.org/project/tome/issues/3023453#comment-12917230). 
+
+The script also lists the files in the static directory after generation so we can check it's worked.
+
+### Development note
+
+My approach to static generation will not scale well. If there were many pages then we would be unnecessarily regenerating pages that have not changed. I need to think about whether my use-case is supported out of the box, as it doesn't seem that unusual.
