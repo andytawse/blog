@@ -19,11 +19,24 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     padding-left: 1rem;
 }
+
 article {
     font-family: serif;
     padding: 1rem;
     padding-top: 0.1rem;
 }
+article.full > div {
+    border-top: 2px solid #e48e54;
+}
+article.full footer {
+    display: flex; 
+    justify-content: flex-end;
+    padding-top: 1rem;
+}
+article  h2 {
+    font-size: 1.0rem;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -40,7 +53,6 @@ header {
     background-color: #e48e54;
     color: #fff;
 }
-
 header ul {
     display: flex;
     list-style: none;
@@ -49,11 +61,9 @@ header ul {
     gap: 1rem;
     align-items: center;
 }
-
 header ul li {
     margin: 0;
 }
-
 header ul li a {
     color: #fff;
     text-decoration: none;
@@ -66,6 +76,10 @@ header ul li a:hover {
     border-radius: 4px;
 }
 
+footer {
+    margin-bottom: 0.5rem;
+}
+
 #block-basicblog-site-branding a {
     color: #fff;
     font-size: 3.5rem;
@@ -74,6 +88,7 @@ header ul li a:hover {
 
 code {
     background-color: #f0f0f0;
+    padding: 0.2rem;
 }
 
 #block-basicblog-siteinfo p {
@@ -82,10 +97,6 @@ code {
 
 .views-row h2, h1 {
     font-size: 1.3rem;
-}
-
-article  h2 {
-    font-size: 1.0rem;
 }
 
 .views-element-container header {
@@ -97,7 +108,3 @@ div.tags {
     padding-top: 1rem;
 }
 
-article footer {
-    border-bottom: 2px solid #e48e54;
-    padding-bottom: 1rem;
-}
