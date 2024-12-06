@@ -7,8 +7,17 @@
     word-wrap: normal;
 }
 
+a {
+    color: #7631f7;
+}
+a:visited {
+    color: #9b6cf3;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, sans-serif;
+}
+h1 {
+    padding-left: 1rem;
 }
 article {
     font-family: serif;
@@ -24,10 +33,12 @@ header {
 
     width:45%;
     margin: 0 auto;
-    background-color: #d35400;
-    color: #fff;
     padding: 1rem;
     border-radius: 6px;
+
+    font-family: Arial, sans-serif;
+    background-color: #e48e54;
+    color: #fff;
 }
 
 header ul {
@@ -67,4 +78,26 @@ code {
 
 #block-basicblog-siteinfo p {
     font-size: 0.8rem;
+}
+
+.views-row h2, h1 {
+    font-size: 1.3rem;
+}
+
+article  h2 {
+    font-size: 1.0rem;
+}
+
+.views-element-container header {
+    background-color: transparent;
+}
+
+div.tags {
+    border-top: 2px solid #e48e54;
+    padding-top: 1rem;
+}
+
+article footer {
+    border-bottom: 2px solid #e48e54;
+    padding-bottom: 1rem;
 }
