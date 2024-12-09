@@ -88,7 +88,8 @@ footer {
 
 code {
     background-color: #f0f0f0;
-    padding: 0.2rem;
+    padding: 0.2rem 0 0.2rem 0;
+    line-height: 1.2rem;
 }
 
 #block-basicblog-siteinfo p {
