@@ -22,4 +22,4 @@ The script also lists the files in the static directory after generation so we c
 
 ### Development note
 
-My approach to static generation will not scale well. If there were many pages then we would be unnecessarily regenerating pages that have not changed. I need to think about whether my use-case is supported out of the box, as it doesn't seem that unusual.
+My approach to static generation will not scale well. If there were many pages then we would be unnecessarily regenerating pages that have not changed. My use-case here may be unusual, as the site is constantly in development, and being worked on by the developer and content editor who are the same person.
