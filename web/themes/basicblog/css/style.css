@@ -29,7 +29,7 @@ article.full > div {
     border-top: 2px solid #e48e54;
 }
 article.full footer {
-    display: flex; 
+    display: flex;
     justify-content: flex-end;
     padding-top: 1rem;
 }
@@ -44,7 +44,7 @@ header {
     align-items: center;
     gap: 1rem;
 
-    width:45%;
+    width:65%;
     margin: 0 auto;
     padding: 1rem;
     border-radius: 6px;
