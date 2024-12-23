@@ -46,7 +46,7 @@ header {
 
     width:65%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.3rem;
     border-radius: 6px;
 
     font-family: Arial, sans-serif;
@@ -84,18 +84,20 @@ footer {
 
 #block-basicblog-site-branding a {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-decoration: none;
+}
+#block-basicblog-siteinfo {
+    padding:0;
+}
+#block-basicblog-siteinfo p {
+    font-size: 0.8rem;
 }
 
 code {
     background-color: #f0f0f0;
     padding: 0.2rem 0 0.2rem 0;
     line-height: 1.2rem;
-}
-
-#block-basicblog-siteinfo p {
-    font-size: 0.8rem;
 }
 
 .views-row h2, h1 {
