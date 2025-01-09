@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^11.0",
         "drupal/minifyhtml": "^2.0",
         "drupal/pathauto": "^1.13",
+        "drupal/single_content_sync": "^1.4",
         "drupal/tome": "^1.13",
         "drush/drush": "^13.1"
     },

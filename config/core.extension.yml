@@ -33,6 +33,7 @@ module:
   path: 0
   path_alias: 0
   shortcut: 0
+  single_content_sync: 0
   system: 0
   taxonomy: 0
   text: 0
