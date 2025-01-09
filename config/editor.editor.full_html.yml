@@ -32,6 +32,7 @@ settings:
       - '|'
       - heading
       - codeBlock
+      - code
       - '|'
       - sourceEditing
   plugins:
