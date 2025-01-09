@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/footnotes": "^4@beta",
         "drupal/minifyhtml": "^2.0",
         "drupal/pathauto": "^1.13",
         "drupal/single_content_sync": "^1.4",
