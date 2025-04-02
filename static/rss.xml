@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.andytawse.co.uk/">
+  <channel>
+    <title>Andy's Blog</title>
+    <link>https://www.andytawse.co.uk/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Adventures with LLMs and CMSes - Cursor IDE and frontend. Part 1</title>
+  <link>https://www.andytawse.co.uk/blog/llm-cms-cursor-ide-frontend-claude</link>
+  <description><![CDATA[
+<span>Adventures with LLMs and CMSes - Cursor IDE and frontend. Part 1</span>
+
+<span><span>sysadmin</span></span>
+
+<span>8  January  2025
+</span>
+]]></description>
+  <pubDate>Wed, 08 Jan 2025 19:48:09 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">10 at https://www.andytawse.co.uk</guid>
+    </item>
+<item>
+  <title>Running an older version of Bitwig on Ubuntu 24</title>
+  <link>https://www.andytawse.co.uk/blog/running-older-version-bitwig-ubuntu-24</link>
+  <description><![CDATA[
+<span>Running an older version of Bitwig on Ubuntu 24</span>
+
+<span><span>sysadmin</span></span>
+
+<span>22  December  2024
+</span>
+]]></description>
+  <pubDate>Sun, 22 Dec 2024 18:57:58 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">11 at https://www.andytawse.co.uk</guid>
+    </item>
+<item>
+  <title>Debugging Google Cloud Run functions when running in Functions Emulator</title>
+  <link>https://www.andytawse.co.uk/blog/debugging-google-cloud-run-functions-when-running-functions-emulator</link>
+  <description><![CDATA[
+<span>Debugging Google Cloud Run functions when running in Functions Emulator</span>
+
+<span><span>sysadmin</span></span>
+
+<span>17  December  2024
+</span>
+]]></description>
+  <pubDate>Tue, 17 Dec 2024 17:27:35 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">9 at https://www.andytawse.co.uk</guid>
+    </item>
+<item>
+  <title>LibreOffice-exported PDF upload to LinkedIn not working</title>
+  <link>https://www.andytawse.co.uk/blog/libreoffice-pdf-linkedin</link>
+  <description><![CDATA[
+<span>LibreOffice-exported PDF upload to LinkedIn not working</span>
+
+<span><span>sysadmin</span></span>
+
+<span>9  December  2024
+</span>
+]]></description>
+  <pubDate>Mon, 09 Dec 2024 10:48:35 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">5 at https://www.andytawse.co.uk</guid>
+    </item>
+<item>
+  <title>How this site was built</title>
+  <link>https://www.andytawse.co.uk/blog/how-site-was-built</link>
+  <description><![CDATA[
+<span>How this site was built</span>
+
+<span><span>sysadmin</span></span>
+
+<span>6  December  2024
+</span>
+]]></description>
+  <pubDate>Fri, 06 Dec 2024 09:53:49 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">4 at https://www.andytawse.co.uk</guid>
+    </item>
+<item>
+  <title>Authentication when running Google Cloud Run functions locally with Functions Emulator</title>
+  <link>https://www.andytawse.co.uk/blog/authentication-when-running-google-cloud-run-functions-locally-functions-emulator</link>
+  <description><![CDATA[
+<span>Authentication when running Google Cloud Run functions locally with Functions Emulator</span>
+
+<span><span>sysadmin</span></span>
+
+<span>27  November  2024
+</span>
+]]></description>
+  <pubDate>Wed, 27 Nov 2024 13:42:23 +0000</pubDate>
+    <dc:creator>sysadmin</dc:creator>
+    <guid isPermaLink="false">1 at https://www.andytawse.co.uk</guid>
+    </item>
+
+  </channel>
+</rss>
